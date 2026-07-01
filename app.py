@@ -12,10 +12,11 @@ from urllib.parse import parse_qs, urlparse
 import csv
 import html
 import json
+import os
 
 
-HOST = "localhost"
-PORT = 8000
+HOST = os.environ.get("HOST", "0.0.0.0")
+PORT = int(os.environ.get("PORT", "8000"))
 DATA_FILE = Path("car_data.csv")
 MODELS_DIR = Path("models")
 MODEL_FILES = [
