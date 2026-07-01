@@ -1,0 +1,33 @@
+{
+  "key": "model_75",
+  "label": "Model 75",
+  "algorithm": "linear_regression",
+  "features": [
+    "mileage_km",
+    "age_years"
+  ],
+  "target": "price_usd",
+  "train_size": 0.75,
+  "test_size": 0.25,
+  "train_percent": 75,
+  "test_percent": 25,
+  "random_seed": 42,
+  "plot_file": "model_75_plot.svg",
+  "coefficients": {
+    "intercept": 30737.132250695573,
+    "mileage_km": -0.09314804721858641,
+    "age_years": -993.2183604960696
+  },
+  "training_metrics": {
+    "rows": 75,
+    "mae": 1327.286512157706,
+    "rmse": 1631.719829947985,
+    "r2": 0.9628708540532573
+  },
+  "testing_metrics": {
+    "rows": 25,
+    "mae": 1239.4128738550917,
+    "rmse": 1509.11630744596,
+    "r2": 0.9653321245150869
+  }
+}

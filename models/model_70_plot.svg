@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" role="img" aria-labelledby="title desc">
+  <title id="title">Model - 70 actual vs predicted prices</title>
+  <desc id="desc">Scatter plot comparing actual test-set prices with predicted prices.</desc>
+  <rect width="100%" height="100%" fill="#ffffff" />
+  <style>
+    text { font-family: Arial, Helvetica, sans-serif; fill: #17202a; }
+    .muted { fill: #657383; font-size: 14px; }
+    .axis { stroke: #657383; stroke-width: 1.4; }
+    .grid { stroke: #d8e0e8; stroke-width: 1; }
+    .perfect { stroke: #b42318; stroke-width: 2.2; stroke-dasharray: 8 7; }
+    circle { fill: #0f766e; stroke: #17202a; stroke-width: 1; opacity: 0.88; }
+  </style>
+  <text x="450.0" y="30" text-anchor="middle" font-size="22" font-weight="700">Model - 70: Test Set Actual vs Predicted Prices</text>
+  <text x="450.0" y="52" text-anchor="middle" class="muted">Perfect predictions fall on the red dashed line.</text>
+  <g class="grid">
+    <line x1="82" y1="522.00" x2="866" y2="522.00" /><line x1="82" y1="405.00" x2="866" y2="405.00" /><line x1="82" y1="288.00" x2="866" y2="288.00" /><line x1="82" y1="171.00" x2="866" y2="171.00" /><line x1="82" y1="54.00" x2="866" y2="54.00" />
+    <line x1="82.00" y1="54" x2="82.00" y2="522" /><line x1="278.00" y1="54" x2="278.00" y2="522" /><line x1="474.00" y1="54" x2="474.00" y2="522" /><line x1="670.00" y1="54" x2="670.00" y2="522" /><line x1="866.00" y1="54" x2="866.00" y2="522" />
+  </g>
+  <line class="perfect" x1="82.00" y1="522.00" x2="866.00" y2="54.00" />
+  <g class="axis">
+    <line x1="82" y1="522" x2="866" y2="522" />
+    <line x1="82" y1="54" x2="82" y2="522" />
+  </g>
+  <g class="muted" text-anchor="middle">
+        <g>
+          <line x1="82.00" y1="522" x2="82.00" y2="528" />
+          <text x="82.00" y="550">$0</text>
+        </g>
+        
+
+        <g>
+          <line x1="278.00" y1="522" x2="278.00" y2="528" />
+          <text x="278.00" y="550">$7,918</text>
+        </g>
+        
+
+        <g>
+          <line x1="474.00" y1="522" x2="474.00" y2="528" />
+          <text x="474.00" y="550">$15,836</text>
+        </g>
+        
+
+        <g>
+          <line x1="670.00" y1="522" x2="670.00" y2="528" />
+          <text x="670.00" y="550">$23,754</text>
+        </g>
+        
+
+        <g>
+          <line x1="866.00" y1="522" x2="866.00" y2="528" />
+          <text x="866.00" y="550">$31,672</text>
+        </g>
+        </g>
+  <g class="muted" text-anchor="end">
+        <g>
+          <line x1="76" y1="522.00" x2="82" y2="522.00" />
+          <text x="70" y="527.00">$0</text>
+        </g>
+        
+
+        <g>
+          <line x1="76" y1="405.00" x2="82" y2="405.00" />
+          <text x="70" y="410.00">$7,918</text>
+        </g>
+        
+
+        <g>
+          <line x1="76" y1="288.00" x2="82" y2="288.00" />
+          <text x="70" y="293.00">$15,836</text>
+        </g>
+        
+
+        <g>
+          <line x1="76" y1="171.00" x2="82" y2="171.00" />
+          <text x="70" y="176.00">$23,754</text>
+        </g>
+        
+
+        <g>
+          <line x1="76" y1="54.00" x2="82" y2="54.00" />
+          <text x="70" y="59.00">$31,672</text>
+        </g>
+        </g>
+  <g><circle cx="510.24" cy="269.65" r="5.5"><title>Car 1: actual $17,300, predicted $17,078</title></circle>
+<circle cx="302.31" cy="375.82" r="5.5"><title>Car 96: actual $8,900, predicted $9,893</title></circle>
+<circle cx="143.88" cy="547.13" r="5.5"><title>Car 58: actual $2,500, predicted $-1,701</title></circle>
+<circle cx="143.88" cy="469.46" r="5.5"><title>Car 94: actual $2,500, predicted $3,555</title></circle>
+<circle cx="388.95" cy="309.10" r="5.5"><title>Car 54: actual $12,400, predicted $14,408</title></circle>
+<circle cx="143.88" cy="501.97" r="5.5"><title>Car 90: actual $2,500, predicted $1,355</title></circle>
+<circle cx="240.42" cy="419.02" r="5.5"><title>Car 26: actual $6,400, predicted $6,969</title></circle>
+<circle cx="804.81" cy="128.38" r="5.5"><title>Car 72: actual $29,200, predicted $26,638</title></circle>
+<circle cx="292.41" cy="386.57" r="5.5"><title>Car 85: actual $8,500, predicted $9,165</title></circle>
+<circle cx="171.11" cy="484.27" r="5.5"><title>Car 78: actual $3,600, predicted $2,553</title></circle>
+<circle cx="143.88" cy="483.29" r="5.5"><title>Car 65: actual $2,500, predicted $2,620</title></circle>
+<circle cx="713.22" cy="144.08" r="5.5"><title>Car 30: actual $25,500, predicted $25,576</title></circle>
+<circle cx="450.83" cy="302.65" r="5.5"><title>Car 28: actual $14,900, predicted $14,845</title></circle>
+<circle cx="307.26" cy="354.40" r="5.5"><title>Car 89: actual $9,100, predicted $11,342</title></circle>
+<circle cx="586.97" cy="209.97" r="5.5"><title>Car 98: actual $20,400, predicted $21,117</title></circle>
+<circle cx="431.03" cy="316.50" r="5.5"><title>Car 5: actual $14,100, predicted $13,907</title></circle>
+<circle cx="304.78" cy="371.10" r="5.5"><title>Car 55: actual $9,000, predicted $10,212</title></circle>
+<circle cx="693.42" cy="131.52" r="5.5"><title>Car 76: actual $24,700, predicted $26,426</title></circle>
+<circle cx="361.72" cy="324.80" r="5.5"><title>Car 12: actual $11,300, predicted $13,345</title></circle>
+<circle cx="265.18" cy="421.59" r="5.5"><title>Car 70: actual $7,400, predicted $6,795</title></circle>
+<circle cx="403.80" cy="340.79" r="5.5"><title>Car 87: actual $13,000, predicted $12,263</title></circle>
+<circle cx="171.11" cy="428.54" r="5.5"><title>Car 14: actual $3,600, predicted $6,325</title></circle>
+<circle cx="388.95" cy="305.12" r="5.5"><title>Car 18: actual $12,400, predicted $14,677</title></circle>
+<circle cx="666.19" cy="149.08" r="5.5"><title>Car 29: actual $23,600, predicted $25,237</title></circle>
+<circle cx="586.97" cy="255.98" r="5.5"><title>Car 32: actual $20,400, predicted $18,003</title></circle>
+<circle cx="267.65" cy="389.95" r="5.5"><title>Car 36: actual $7,500, predicted $8,937</title></circle>
+<circle cx="525.09" cy="290.21" r="5.5"><title>Car 95: actual $17,900, predicted $15,687</title></circle>
+<circle cx="383.99" cy="335.27" r="5.5"><title>Car 4: actual $12,200, predicted $12,637</title></circle>
+<circle cx="733.02" cy="146.92" r="5.5"><title>Car 15: actual $26,300, predicted $25,384</title></circle>
+<circle cx="153.79" cy="457.02" r="5.5"><title>Car 82: actual $2,900, predicted $4,398</title></circle></g>
+  <text x="474.0" y="576" text-anchor="middle" class="muted">Actual Price (USD)</text>
+  <text transform="translate(24 288.0) rotate(-90)" text-anchor="middle" class="muted">Predicted Price (USD)</text>
+</svg>

@@ -1,0 +1,33 @@
+{
+  "key": "model_85",
+  "label": "Model 85",
+  "algorithm": "linear_regression",
+  "features": [
+    "mileage_km",
+    "age_years"
+  ],
+  "target": "price_usd",
+  "train_size": 0.85,
+  "test_size": 0.15,
+  "train_percent": 85,
+  "test_percent": 15,
+  "random_seed": 42,
+  "plot_file": "model_85_plot.svg",
+  "coefficients": {
+    "intercept": 30798.30840590447,
+    "mileage_km": -0.09262622439213793,
+    "age_years": -1006.2090987217376
+  },
+  "training_metrics": {
+    "rows": 85,
+    "mae": 1272.3877965895194,
+    "rmse": 1590.589585249389,
+    "r2": 0.9655403500075895
+  },
+  "testing_metrics": {
+    "rows": 15,
+    "mae": 1464.9457257529696,
+    "rmse": 1661.8030058275467,
+    "r2": 0.9461662655178987
+  }
+}

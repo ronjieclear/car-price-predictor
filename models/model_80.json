@@ -1,0 +1,33 @@
+{
+  "key": "model_80",
+  "label": "Model 80",
+  "algorithm": "linear_regression",
+  "features": [
+    "mileage_km",
+    "age_years"
+  ],
+  "target": "price_usd",
+  "train_size": 0.8,
+  "test_size": 0.2,
+  "train_percent": 80,
+  "test_percent": 20,
+  "random_seed": 42,
+  "plot_file": "model_80_plot.svg",
+  "coefficients": {
+    "intercept": 30838.851245932026,
+    "mileage_km": -0.0925544724062202,
+    "age_years": -1007.2421042558751
+  },
+  "training_metrics": {
+    "rows": 80,
+    "mae": 1313.6439779472546,
+    "rmse": 1617.550555454258,
+    "r2": 0.9644973741808439
+  },
+  "testing_metrics": {
+    "rows": 20,
+    "mae": 1270.2768793538437,
+    "rmse": 1548.6143847743274,
+    "r2": 0.9564194419655725
+  }
+}

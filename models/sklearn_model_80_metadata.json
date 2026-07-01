@@ -1,0 +1,33 @@
+{
+  "key": "sklearn_model_80",
+  "label": "Sklearn Model 80",
+  "algorithm": "sklearn.linear_model.LinearRegression",
+  "features": [
+    "mileage_km",
+    "age_years"
+  ],
+  "target": "price_usd",
+  "train_size": 0.8,
+  "test_size": 0.2,
+  "train_percent": 80,
+  "test_percent": 20,
+  "random_seed": 42,
+  "model_file": "models/sklearn_model_80.pkl",
+  "coefficients": {
+    "intercept": 30720.277170840847,
+    "mileage_km": -0.09279976076231926,
+    "age_years": -1015.5827746121788
+  },
+  "training_metrics": {
+    "rows": 80,
+    "mae": 1232.9888383057173,
+    "rmse": 1528.5449463963218,
+    "r2": 0.9655447053689608
+  },
+  "testing_metrics": {
+    "rows": 20,
+    "mae": 1521.5702864958146,
+    "rmse": 1866.6716586265811,
+    "r2": 0.9534002425149597
+  }
+}
